@@ -1,6 +1,10 @@
 # Kali-cheatsheet
 Resume kali commande from course online. well explained in markdown
 
+
+
+*Please note that this is a summary of the course and not the full course. For complete information, please visit the official website.*
+
 ## Content : 
 
 ### HTB :

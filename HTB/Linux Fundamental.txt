@@ -1,13 +1,12 @@
-@#### title
-@### exemple
-@## exercise
+@####! title
+@###! example
+@##! exercise
 
 
 
 
 
-
-@#### Regular Expressions (RegEx)
+@####! Regular Expressions (RegEx)
 
 1 	(a) 	The round brackets are used to group parts of a regex. Within the brackets, you can define further patterns which should be processed together.
 2 	[a-z] 	The square brackets are used to define character classes. Inside the brackets, you can specify a list of characters to search for.
@@ -15,11 +14,13 @@
 4 	| 	    Also called the OR operator and shows results when one of the two expressions matches
 5 	.* 	    Also called the AND operator and displayed results only if both expressions match
 
-@### Regular Expressions (RegEx) exemple :
+
+@###! Regular Expressions (RegEx) example :
 grep -E "(my|false)" /etc/passwd
 grep -E "my" /etc/passwd | grep -E "false"
 
-@## Regular Expressions (RegEx) exercise : 
+
+@##! Regular Expressions (RegEx) exercise : 
 
 Here are some optional tasks to practice regex that can help us to handle it better and more efficiently. For all exercises, we will use the /etc/ssh/sshd_config file on our Pwnbox instance.
 

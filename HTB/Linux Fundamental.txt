@@ -1,0 +1,42 @@
+@#### title
+@### exemple
+@## exercise
+
+
+
+
+
+
+@#### Regular Expressions (RegEx)
+
+1 	(a) 	The round brackets are used to group parts of a regex. Within the brackets, you can define further patterns which should be processed together.
+2 	[a-z] 	The square brackets are used to define character classes. Inside the brackets, you can specify a list of characters to search for.
+3 	{1,10} 	The curly brackets are used to define quantifiers. Inside the brackets, you can specify a number or a range that indicates how often a previous pattern should be repeated.
+4 	| 	    Also called the OR operator and shows results when one of the two expressions matches
+5 	.* 	    Also called the AND operator and displayed results only if both expressions match
+
+@### Regular Expressions (RegEx) exemple :
+grep -E "(my|false)" /etc/passwd
+grep -E "my" /etc/passwd | grep -E "false"
+
+@## Regular Expressions (RegEx) exercise : 
+
+Here are some optional tasks to practice regex that can help us to handle it better and more efficiently. For all exercises, we will use the /etc/ssh/sshd_config file on our Pwnbox instance.
+
+1 	Show all lines that do not contain the # character.
+        grep -E "[a-z]" /etc/ssh/sshd_config | grep -E -v "(#)"                 (select every line that containe a to z and show which doesn't containt #)
+
+2 	Search for all lines that contain a word that starts with Permit.
+        grep -E "(Permit)" /etc/ssh/sshd_config
+
+3 	Search for all lines that contain a word ending with Authentication.
+        grep -E "(*Authentication)" /etc/ssh/sshd_config
+
+4 	Search for all lines containing the word Key.
+        grep -E "(Key)" /etc/ssh/sshd_config
+
+5 	Search for all lines beginning with Password and containing yes.
+        grep -E "(Password.*yes)" /etc/ssh/sshd_config
+
+6 	Search for all lines that end with yes.
+        grep -E -i "(* yes)" /etc/ssh/sshd_config | grep -E -v "(# )" (in the comment we see this partern "# blabla" so we exclude the "# " on only keep settings) 

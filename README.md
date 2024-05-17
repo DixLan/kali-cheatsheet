@@ -1,8 +1,6 @@
 # Kali-cheatsheet
 Resume kali commande from course online. well explained
 
-[TOC]
-
 ## Research tips :
 
 - @!#### title

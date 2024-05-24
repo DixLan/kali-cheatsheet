@@ -122,3 +122,22 @@ It is also possible to receive notifications when a task is executed  successful
 ## Systemd vs. Cron
 
 Systemd and Cron are both tools that can be used in Linux systems to  schedule and automate processes. The key difference between these two  tools is how they are configured. With Systemd, you need to create a  timer and services script that tells the operating system when to run  the tasks. On the other hand, with Cron, you need to create a `crontab` file that tells the cron daemon when to run the tasks.
+
+#### Questions
+
+What is the type of the service of the "syslog.service"?
+
+```shell
+systemctl show syslog.service -p Type
+```
+
+#### fix problem :
+
+Hi, it took me some time to answer, I barely have any time in my day and I try to help as many people as I can. Hopefully this is the answer you are looking for. So I tried to do the same command in my virtual  machine and it didn’t work:
+ ![image](https://europe1.discourse-cdn.com/hackthebox/original/3X/8/8/88a534f490af15b10497d22ff35717a3ecb4ef2d.png)
+ ran a few commands and got this(don’t mind the name of the directories):
+ ![image](https://europe1.discourse-cdn.com/hackthebox/original/3X/4/b/4b73125e8423b0adc01c175b0d644bd6db0ac32a.png)
+ so this meant I didn’t have it installed on my system so to do that you first want to type:
+ **apt update && apt upgrade -y**
+ **apt install rsyslog**
+ That’s it once you run the command I originally posted hopefully you will get the answer!

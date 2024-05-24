@@ -7,7 +7,7 @@ Resume kali commande from course online. well explained in markdown
 
 ## Content : 
 
-### [HTB] (https://academy.hackthebox.com):
+### [HTB](https://academy.hackthebox.com):
 
 #### [Regular Expressions (RegEx)](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Regular%20Expressions%20(RegEx).md)
 
@@ -17,6 +17,6 @@ Resume kali commande from course online. well explained in markdown
 
 #### [Package Management](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Package%20Management.md)
 
-#### [Service and Process Management](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux Fundamental/Service and Process Management.md)
+#### [Service and Process Management](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Service%20and%20Process%20Management.md)
 
-#### [Task Scheduling](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux Fundamental/Task Scheduling.md)
+#### [Task Scheduling](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Task%20Scheduling.md)

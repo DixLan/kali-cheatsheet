@@ -10,13 +10,13 @@ Besides `systemctl` we can also use `update-rc.d` to manage SysV init script lin
 
 After installing `OpenSSH` on our VM, we can start the service with the following command.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ systemctl start ssh
 ```
 
 After we have started the service, we can now check if it runs without errors.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ systemctl status ssh
 
 ● ssh.service - OpenBSD Secure Shell server
@@ -39,7 +39,7 @@ Mai 14 15:08:31 inlane sshd[846]: Server listening on :: port 22.
 
 To add OpenSSH to the SysV script to tell the system to run this  service after startup, we can link it with the following command:
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ systemctl enable ssh
 
 Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
@@ -48,7 +48,7 @@ Executing: /lib/systemd/systemd-sysv-install enable ssh
 
 Once we reboot the system, the OpenSSH server will automatically run. We can check this with a tool called `ps`.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ ps -aux | grep ssh
 
 root       846  0.0  0.1  72300  5660 ?        Ss   Mai14   0:00 /usr/sbin/sshd -D
@@ -56,7 +56,7 @@ root       846  0.0  0.1  72300  5660 ?        Ss   Mai14   0:00 /usr/sbin/sshd 
 
 We can also use `systemctl` to list all services.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ systemctl list-units --type=service
 
 UNIT                                                       LOAD   ACTIVE SUB     DESCRIPTION              
@@ -71,7 +71,7 @@ bolt.service                                               loaded active running
 
 It is quite possible that the services do not start due to an error. To see the problem, we can use the tool `journalctl` to view the logs.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ journalctl -u ssh.service --no-pager
 
 -- Logs begin at Wed 2020-05-13 17:30:52 CEST, end at Fri 2020-05-15 16:00:14 CEST. --
@@ -100,7 +100,7 @@ A process can be in the following states:
 
 Processes can be controlled using `kill`, `pkill`, `pgrep`, and `killall`. To interact with a process, we must send a signal to it. We can view all signals with the following command:
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ kill -l
 
  1) SIGHUP       2) SIGINT       3) SIGQUIT      4) SIGILL       5) SIGTRAP
@@ -132,7 +132,7 @@ The most commonly used are:
 
 For example, if a program were to freeze, we could force to kill it with the following command:
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ kill 9 <PID> 
 ```
 
@@ -140,7 +140,7 @@ DixLan@htb[/htb]$ kill 9 <PID>
 
 Sometimes it will be necessary to put the scan or process we just  started in the background to continue using the current session to  interact with the system or start other processes. As we have already  seen, we can do this with the shortcut `[Ctrl + Z]`. As mentioned above, we send the `SIGTSTP` signal to the kernel, which suspends the process.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ ping -c 10 www.hackthebox.eu
 
 DixLan@htb[/htb]$ vim tmpfile
@@ -150,7 +150,7 @@ DixLan@htb[/htb]$ vim tmpfile
 
 Now all background processes can be displayed with the following command.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ jobs
 
 [1]+  Stopped                 ping -c 10 www.hackthebox.eu
@@ -159,7 +159,7 @@ DixLan@htb[/htb]$ jobs
 
 The `[Ctrl] + Z` shortcut suspends the processes, and they will not be executed further. To keep it running in the background, we  have to enter the command `bg` to put the process in the background.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ bg
 
 DixLan@htb[/htb]$ 
@@ -172,7 +172,7 @@ DixLan@htb[/htb]$
 
 Another option is to automatically set the process with an AND sign (`&`) at the end of the command.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ ping -c 10 www.hackthebox.eu &
 
 [1] 10825
@@ -181,7 +181,7 @@ PING www.hackthebox.eu (172.67.1.1) 56(84) bytes of data.
 
 Once the process finishes, we will see the results.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ 
 
 --- www.hackthebox.eu ping statistics ---
@@ -195,7 +195,7 @@ DixLan@htb[/htb]$
 
 After that, we can use the `jobs` command to list all  background processes. Backgrounded processes do not require user  interaction, and we can use the same shell session without waiting until the process finishes first. Once the scan or process finishes its work, we will get notified by the terminal that the process is finished.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ jobs
 
 [1]+  Running                 ping -c 10 www.hackthebox.eu &
@@ -203,7 +203,7 @@ DixLan@htb[/htb]$ jobs
 
 If we want to get the background process into the foreground and interact with it again, we can use the `fg <ID>` command.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ fg 1
 ping -c 10 www.hackthebox.eu
 
@@ -221,7 +221,7 @@ There are three possibilities to run several commands, one after the other. Thes
 
 The difference between them lies in the previous processes' treatment and depends on whether the previous process was completed successfully  or with errors. The semicolon (`;`) is a command separator and executes the commands by ignoring previous commands' results and errors.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ echo '1'; echo '2'; echo '3'
 
 1
@@ -231,7 +231,7 @@ DixLan@htb[/htb]$ echo '1'; echo '2'; echo '3'
 
 For example, if we execute the same command but replace it in second place, the command `ls` with a file that does not exist, we get an error, and the third command will be executed nevertheless.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ echo '1'; ls MISSING_FILE; echo '3'
 
 1
@@ -241,7 +241,7 @@ ls: cannot access 'MISSING_FILE': No such file or directory
 
 However, it looks different if we use the double AND characters (`&&`) to run the commands one after the other. If there is an error in one of the commands, the following ones will not be executed anymore, and the  whole process will be stopped.
 
-```shell-session
+```shell
 DixLan@htb[/htb]$ echo '1' && ls MISSING_FILE && echo '3'
 
 1
@@ -249,3 +249,14 @@ ls: cannot access 'MISSING_FILE': No such file or directory
 ```
 
 Pipes (`|`) depend not only on the correct and error-free operation of the previous processes but also on the previous processes' results.
+
+## Questions :
+
+Use the "systemctl" command to list all units of services and submit the unit name with the description "Load AppArmor profiles managed  internally by snapd" as the answer.
+
+### commande : 
+
+```shell
+systemctl list-units | grep "Load AppArmor profiles managed internally by snapd"
+```
+

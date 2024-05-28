@@ -9,21 +9,21 @@ Resume kali commande from course online. well explained in markdown
 
 ### [HTB](https://academy.hackthebox.com):
 
-- [Linux Structure](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Linux-Structure.md)
+- #### [Linux Structure](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Linux-Structure.md)
 
 - [Introduction to Shell](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Introduction-to-Shell.md)
 
-- [System Information](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/System-Information.md)
+- #### [System Information](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/System-Information.md)
 
-- [Working with Files and Directories](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Working-with-Files-and-Directories.md)
+- #### [Working with Files and Directories](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Working-with-Files-and-Directories.md)
 
-- [Find Files and Directories](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Find-Files-and-Directories.md)
+- #### [Find Files and Directories](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Find-Files-and-Directories.md)
 
-- [File Descriptors and Redirections](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/File-Descriptors-and-Redirections.md)
+- #### [File Descriptors and Redirections](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/File-Descriptors-and-Redirections.md)
 
-- [Filter Contents](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Filter-Contents.md)
+- #### [Filter Contents](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Filter-Contents.md)
 
-- [Regular Expressions (RegEx)](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Regular%20Expressions%20(RegEx).md)
+- #### [Regular Expressions (RegEx)](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Regular%20Expressions%20(RegEx).md)
 
 - #### [Permission Management](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Permission%20Management.md)
 
@@ -35,6 +35,6 @@ Resume kali commande from course online. well explained in markdown
 
 - ####  [Task Scheduling](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Task%20Scheduling.md)
 
-- [Network Services](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Network%20Services.md)
+- #### [Network Services](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Network%20Services.md)
 
-- [Working with Web Services](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Working%20with%20Web%20Services.md)
+- #### [Working with Web Services](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Working%20with%20Web%20Services.md)

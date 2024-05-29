@@ -74,7 +74,7 @@ After that, we can create a crontab that tells `cron` to  run the script every h
 
 #### Auto-Sync - Crontab
 
-```shell-session
+```shell
 0 * * * * /path/to/RSYNC_Backup.sh
 ```
 

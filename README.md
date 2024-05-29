@@ -40,3 +40,5 @@ Resume kali commande from course online. well explained in markdown
 - #### [Working with Web Services](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Working%20with%20Web%20Services.md)
 
 - #### [Backup and Restore](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Backup-and-Restore.md)
+
+- [File System Management](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/File-System-Management.md)

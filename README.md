@@ -5,9 +5,9 @@ Resume kali commande from course online. well explained in markdown
 
 ## Content : 
 
-### [HTB](https://academy.hackthebox.com):
+### [HTB ](https://academy.hackthebox.com) :
 
-1. #### Linux Fundamental
+1. #### Linux Fundamental :
 
    - ##### [Linux Structure](https://github.com/DixLan/kali-cheatsheet/blob/master/HTB/Linux%20Fundamental/Linux-Structure.md)
 

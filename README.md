@@ -44,3 +44,5 @@ Resume kali commande from course online. well explained in markdown
 - #### [File System Management](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/File-System-Management.md)
 
 - #### [Containerization](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Containerization.md)
+
+- [Network Configuration](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Network-Configuration.md)

@@ -49,4 +49,6 @@ Resume kali commande from course online. well explained in markdown
 
 - #### [Remote Desktop Protocols in Linux](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Remote-Desktop-Protocols-in-Linux.md)
 
-- [Linux Security](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Linux-Security.md)
+- #### [Linux Security](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Linux-Security.md)
+
+- #### [Firewall Setup](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Firewall-Setup.md)

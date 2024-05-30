@@ -45,6 +45,8 @@ Resume kali commande from course online. well explained in markdown
 
 - #### [Containerization](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Containerization.md)
 
-- [Network Configuration](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Network-Configuration.md)
+- #### [Network Configuration](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Network-Configuration.md)
 
-- [Remote Desktop Protocols in Linux](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Remote-Desktop-Protocols-in-Linux.md)
+- #### [Remote Desktop Protocols in Linux](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Remote-Desktop-Protocols-in-Linux.md)
+
+- [Linux Security](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Linux-Security.md)

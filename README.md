@@ -52,3 +52,7 @@ Resume kali commande from course online. well explained in markdown
    - ##### [Linux Security](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Linux-Security.md)
 
    - ##### [Firewall Setup](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Firewall-Setup.md)
+
+   - ##### [System Logs](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/System-Logs.md)
+
+   - ##### [Shortcuts](https://github.com/DixLan/kali-cheatsheet/tree/master/HTB/Linux%20Fundamental/Shortcuts.md)

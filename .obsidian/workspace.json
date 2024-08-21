@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB/Introduction-to-Networking/Networking Topologies.md",
+                "file": "HTB/Introduction-to-Networking/Proxies.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Introduction-to-Networking/Networking Topologies.md",
+                "file": "HTB/Introduction-to-Networking/Proxies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Introduction-to-Networking/Networking Topologies.md",
+                "file": "HTB/Introduction-to-Networking/Proxies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Introduction-to-Networking/Networking Topologies.md"
+                "file": "HTB/Introduction-to-Networking/Proxies.md"
               }
             }
           }
@@ -185,11 +185,14 @@
   },
   "active": "820294013b9456a0",
   "lastOpenFiles": [
+    "Untitled.md",
+    "git",
+    "HTB/Introduction-to-Networking/Proxies.md",
     "README-OB.md",
     "HTB/Introduction-to-Networking/Networking Topologies.md",
+    "README.md",
     "HTB/Introduction-to-Networking/Network Types.md",
     "HTB/Introduction-to-Networking/Networking-Overview.md",
-    "HTB/Linux Fundamental/Introduction-to-Shell.md",
-    "README.md"
+    "HTB/Linux Fundamental/Introduction-to-Shell.md"
   ]
 }

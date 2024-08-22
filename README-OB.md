@@ -21,7 +21,7 @@ Resume kali commande from course online. well explained in markdown
    - [[User Managment]]
    - [[Package Management]]
    - [[Service and Process Management]]
-   -  [[Task Scheduling]]
+   - [[Task Scheduling]]
    - [[Network Services]]
    - [[Working with Web Services]]
    - [[Backup-and-Restore]]

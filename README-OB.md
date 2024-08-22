@@ -9,53 +9,30 @@ Resume kali commande from course online. well explained in markdown
 
 #### 1.  Linux Fundamental :
 
-   - ##### [[Linux-Structure]]
-
-   - ##### [[Introduction-to-Shell]]
-
-   - ##### [[System-Information]]
-
-   - ##### [[Working-with-Files-and-Directories]]
-   
-   - ##### [[Find-Files-and-Directories]]
-
-   - ##### [[File-Descriptors-and-Redirections]]
-   
-   - ##### [[Filter-Contents]]
-
-   - ##### [[Regular Expressions (RegEx)]]
-   
-   - ##### [[Permission Management]]
-
-   - ##### [[User Managment]]
-
-   - ##### [[Package Management]]
-
-   - ##### [[Service and Process Management]]
-
-   - #####  [[Task Scheduling]]
-
-   - ##### [[Network Services]]
-
-   - ##### [[Working with Web Services]]
-
-   - ##### [[Backup-and-Restore]]
-
-   - ##### [[File-System-Management]]
-
-   - ##### [[Containerization]]
-
-   - ##### [[Network-Configuration]]
-
-   - ##### [[Remote-Desktop-Protocols-in-Linux]]
-
-   - ##### [[Linux-Security]]
-
-   - ##### [[Firewall-Setup]]
-
-   - ##### [[System-Logs]]
-
-   - ##### [[Shortcuts]]
+   - [[Linux-Structure]]
+   - [[Introduction-to-Shell]]
+   - [[System-Information]]
+   - [[Working-with-Files-and-Directories]]
+   - [[Find-Files-and-Directories]]
+   - [[File-Descriptors-and-Redirections]]
+   - [[Filter-Contents]]
+   - [[Regular Expressions (RegEx)]]
+   - [[Permission Management]]
+   - [[User Managment]]
+   - [[Package Management]]
+   - [[Service and Process Management]]
+   -  [[Task Scheduling]]
+   - [[Network Services]]
+   - [[Working with Web Services]]
+   - [[Backup-and-Restore]]
+   - [[File-System-Management]]
+   - [[Containerization]]
+   - [[Network-Configuration]]
+   - [[Remote-Desktop-Protocols-in-Linux]]
+   - [[Linux-Security]]
+   - [[Firewall-Setup]]
+   - [[System-Logs]]
+   - [[Shortcuts]]
 
 #### 2. Introduction to Networking :
 
@@ -65,3 +42,5 @@ Resume kali commande from course online. well explained in markdown
    - [[Proxies]]
    - [[Networking Models]]
    - [[The OSI Model]]
+   - [[The TCP IP Model]]
+   - [[Network Layer]]

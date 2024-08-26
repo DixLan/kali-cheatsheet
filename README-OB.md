@@ -44,3 +44,4 @@ Resume kali commande from course online. well explained in markdown
    - [[The OSI Model]]
    - [[The TCP IP Model]]
    - [[Network Layer]]
+   - [[IP Addresses]]

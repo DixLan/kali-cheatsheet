@@ -1,6 +1,3 @@
-# Networking Overview
-
-------
 
 A network enables two computers to communicate with each other. There is a wide array of `topologies` (mesh/tree/star), `mediums` (ethernet/fiber/coax/wireless), and `protocols` (TCP/UDP/IPX) that can be used to facilitate the network. It is  important as security professionals to understand networking because  when the network fails, the error may be silent, causing us to miss  something.
 

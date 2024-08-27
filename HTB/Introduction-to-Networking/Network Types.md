@@ -1,11 +1,11 @@
 #### Common Terminology
 
-|**Network Type**|**Definition**|
-|---|---|
-|Wide Area Network (WAN)|Internet|
-|Local Area Network (LAN)|Internal Networks (Ex: Home or Office)|
-|Wireless Local Area Network (WLAN)|Internal Networks accessible over Wi-Fi|
-|Virtual Private Network (VPN)|Connects multiple network sites to one `LAN`|
+| **Network Type**                   | **Definition**                               |
+| ---------------------------------- | -------------------------------------------- |
+| Wide Area Network (WAN)            | Internet                                     |
+| Local Area Network (LAN)           | Internal Networks (Ex: Home or Office)       |
+| Wireless Local Area Network (WLAN) | Internal Networks accessible over Wi-Fi      |
+| Virtual Private Network (VPN)      | Connects multiple network sites to one `LAN` |
 ## VPN
 
 There are three main types `Virtual Private Networks` (`VPN`), but all three have the same goal of making the user feel as if they were plugged into a different network.

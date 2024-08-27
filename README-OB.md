@@ -5,7 +5,7 @@ Resume kali commande from course online. well explained in markdown
 
 ## Content : 
 
-### [HTB ](https://academy.hackthebox.com) :
+### [HTB](https://academy.hackthebox.com) :
 
 #### 1.  Linux Fundamental :
 

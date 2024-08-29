@@ -8,55 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "314d2ec9b5bd5b08",
+            "id": "2317d47c7945f437",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "HTB/Introduction-to-Networking/IPv4 Addresses.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4238ec0ad39340d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction-to-Networking/Networking-Overview.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0663fe3724ef8557",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction-to-Networking/Network Types.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "820294013b9456a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTB/Introduction-to-Networking/Network Types.md",
-                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB/Introduction-to-Networking/Network Types.md",
+                "file": "HTB/Introduction-to-Networking/IPv4 Addresses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB/Introduction-to-Networking/Network Types.md",
+                "file": "HTB/Introduction-to-Networking/IPv4 Addresses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB/Introduction-to-Networking/Network Types.md"
+                "file": "HTB/Introduction-to-Networking/IPv4 Addresses.md"
               }
             }
           }
@@ -170,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,25 +144,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "820294013b9456a0",
+  "active": "2317d47c7945f437",
   "lastOpenFiles": [
-    "HTB/Introduction-to-Networking/Networking Models.md",
-    "HTB/Introduction-to-Networking/Network Types.md",
-    "HTB/Introduction-to-Networking/Network Layer.md",
-    "HTB/Introduction-to-Networking/IP Addresses.md",
     "README-OB.md",
-    "HTB/Introduction-to-Networking/Networking-Overview.md",
-    "HTB/Introduction-to-Networking/Networking Topologies.md",
-    "HTB/Introduction-to-Networking/Proxies.md",
-    "HTB/Introduction-to-Networking/The TCP IP Model.md",
+    "HTB/Introduction-to-Networking/IPv4 Addresses.md",
+    "HTB/Introduction-to-Networking/IPv4 Addresses.md",
+    "HTB/Introduction-to-Networking/Network Layer.md",
     "HTB/Introduction-to-Networking/The OSI Model.md",
+    "HTB/Introduction-to-Networking/The TCP IP Model.md",
+    "README.md",
+    "HTB/Introduction-to-Networking/Networking Models.md",
+    "HTB/Introduction-to-Networking/Proxies.md",
     "Untitled.md",
     "git",
-    "README.md",
+    "HTB/Introduction-to-Networking/Networking Topologies.md",
+    "HTB/Introduction-to-Networking/Network Types.md",
+    "HTB/Introduction-to-Networking/Networking-Overview.md",
     "HTB/Linux Fundamental/Introduction-to-Shell.md"
   ]
 }
